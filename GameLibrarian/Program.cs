@@ -15,6 +15,10 @@ namespace GameLibrarian
         [STAThread]
         static void Main()
         {
+            DatabaseCommunicator dbcom = new DatabaseCommunicator();
+            dbcom.AddGame("Hehistani");
+            dbcom.AddGame("Makaron");
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
