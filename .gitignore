@@ -2,6 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/GameLibrarian/bin/Debug
+/GameLibrarian/bin/**
+/GameLibrarian/obj/**
+/GameLibrarian/bin/Debug/*
+/GameLibrarian/obj/Debug/*
 /.vs/GameLibrarian/v15/Server/sqlite3
 /.vs/GameLibrarian/v15
+/packages
+/**/*.cache
