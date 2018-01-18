@@ -53,8 +53,8 @@
             this.propertiesLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.propertiesLayout.Controls.Add(this.NameLabel, 0, 0);
             this.propertiesLayout.Controls.Add(this.NameTextBox, 1, 0);
-            this.propertiesLayout.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.propertiesLayout.Location = new System.Drawing.Point(15, 191);
+            this.propertiesLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.propertiesLayout.Location = new System.Drawing.Point(15, 15);
             this.propertiesLayout.MaximumSize = new System.Drawing.Size(-1, 30);
             this.propertiesLayout.MinimumSize = new System.Drawing.Size(408, 30);
             this.propertiesLayout.Name = "propertiesLayout";
