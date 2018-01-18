@@ -16,11 +16,6 @@ namespace GameLibrarian
         static void Main()
         {
             DatabaseCommunicator dbcom = new DatabaseCommunicator();
-            Game[] heh = dbcom.GetAllGames();
-            foreach(Game game in heh)
-            {
-                Console.Write(game.visibleName);
-            }
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

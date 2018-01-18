@@ -28,9 +28,9 @@ namespace GameLibrarian
             cmd.ExecuteNonQuery();                            
         }
 
-        public void AddGame(string gameName)
+        public void AddGame(Game newGame)
         {
-            string sql = "INSERT INTO games (name) values ('" + gameName + "');";
+            string sql = "INSERT INTO games (name) values ('" + newGame.visibleName + "');";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
             cmd.ExecuteNonQuery();
         }
