@@ -13,10 +13,12 @@ namespace GameLibrarian.UI
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
+            //Data validation needed
+
             Game g = new Game
             {
                 id = 666,
-                visibleName = "Game Librarian Simulator"
+                visibleName = NameTextBox.Text
             };
 
             Utils.NotImplementedAlert();
