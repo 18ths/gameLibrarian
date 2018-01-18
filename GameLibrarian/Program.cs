@@ -15,6 +15,8 @@ namespace GameLibrarian
         [STAThread]
         static void Main()
         {
+            DatabaseCommunicator dbcom = new DatabaseCommunicator();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWindow());

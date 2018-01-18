@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseCommunicator.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="UI\Common\Utils.cs" />
     <Compile Include="UI\MainWindow.cs">

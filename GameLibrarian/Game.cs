@@ -9,6 +9,6 @@ namespace GameLibrarian
     class Game
     {
         public string visibleName;
-        public int id;
+        public int id; // should be readonly
     }
 }
