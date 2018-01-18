@@ -4,8 +4,8 @@
 
 /GameLibrarian/bin/**
 /GameLibrarian/obj/**
-/GameLibrarian/bin/Debug
-/GameLibrarian/obj/Debug
+/GameLibrarian/bin/Debug/*
+/GameLibrarian/obj/Debug/*
 /.vs/GameLibrarian/v15/Server/sqlite3
 /.vs/GameLibrarian/v15
 /packages
